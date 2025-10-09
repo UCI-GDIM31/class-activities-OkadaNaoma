@@ -6,7 +6,10 @@ Write your W1 activity Devlog here.
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
-"Hello world!"
+### Devlogs
+1. They are floats because Unity's Color uses values from 0.0 to 1.0 for each channel, and we change them by small decimal steps like 0.1f. Ints, bools, or strings cannot represent these smooth changes in brightness.
+2. "_bounces" is an int because it counts whole collisions: 1 bounce, 2 bounces, etc., not halves. Technically, float also can be used, but using an int also makes simple updates like _bounces++ clear and safe.
+3. The error said we mixed number types: we used a double literal 0.1 with a float variable g. The fix is to use a float literal and write g -= 0.1f;, so the types match.
 
 ## Open-Source Assets
 ### W1
