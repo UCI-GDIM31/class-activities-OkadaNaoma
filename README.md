@@ -15,13 +15,14 @@ Input should be an integer type since it involves friendship level and whether o
 On the other hand, output should be a String since it involves the character's text.
 
 ### W4
-Table 1-10
+Table 1-10 (Table No.8)
 #### Activity 1
 Line 5: The float variable for moving speed can be modified in the inspector
 Line 22: The float variable for moving distance is the sum of vertical input, move speed, and time
 Line 25: Move the character by the amount calculated along the z-axis
-#### Activity 3
-
+#### Collision discussion activity
+1. We added Rigidbody to the Cat and SoccerBall object, and checked the Is Triggered box for the Goal object.
+2. N/A
 
 ## Open-Source Assets
 ### W1
