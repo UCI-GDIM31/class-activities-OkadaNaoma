@@ -14,6 +14,15 @@ Tables 7-13
 Input should be an integer type since it involves friendship level and whether or not the player knows the character's secret.
 On the other hand, output should be a String since it involves the character's text.
 
+### W4
+Table 1-10
+#### Activity 1
+Line 5: The float variable for moving speed can be modified in the inspector
+Line 22: The float variable for moving distance is the sum of vertical input, move speed, and time
+Line 25: Move the character by the amount calculated along the z-axis
+#### Activity 3
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
