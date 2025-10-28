@@ -24,6 +24,15 @@ Line 25: Move the character by the amount calculated along the z-axis
 1. We added Rigidbody to the Cat and SoccerBall object, and checked the Is Triggered box for the Goal object.
 2. N/A
 
+### W5
+#### Activity 1
+Q. I thought the element following the dot was referencing children (e.g. Input.GetKey), but was it actually referencing parent(e.g. collider.gameObject)?
+A. The dot indicates member access.
+#### Activity 2
+1. A member variable is needed to specify the deer's destination from the inspector.
+2. The goal should be achievable simply by using the Start method.
+3. In the method, it is necessary to retrieve the information for the destination that was given and make the deer walk to that destination.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
