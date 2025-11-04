@@ -33,6 +33,10 @@ A. The dot indicates member access.
 2. The goal should be achievable simply by using the Start method.
 3. In the method, it is necessary to retrieve the information for the destination that was given and make the deer walk to that destination.
 
+### W6
+#### Activity 2
+2. It means we need to use [SerializeField] to make it tunable in the Inspector.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
