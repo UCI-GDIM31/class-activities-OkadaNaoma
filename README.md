@@ -37,6 +37,10 @@ A. The dot indicates member access.
 #### Activity 2
 2. It means we need to use [SerializeField] to make it tunable in the Inspector.
 
+### W7
+#### Activity 2
+Since world space were used in the calculations, they need to be replaced with Muskrat's local space.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
